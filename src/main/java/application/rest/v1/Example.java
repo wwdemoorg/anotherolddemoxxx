@@ -15,7 +15,7 @@ import java.util.logging.*;
 public class Example {
  @GET
  public String greet() throws Exception {
-   return "Hello V4 from " + java.net.InetAddress.getLocalHost().getHostName();
+   return "Hello V5 from " + java.net.InetAddress.getLocalHost().getHostName();
  }
 }
 
